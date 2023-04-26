@@ -380,7 +380,13 @@ export const ChatInput = ({
         </div>
       </div>
       <div className="px-3 pt-2 pb-3 text-center text-[12px] text-black/50 dark:text-white/50 md:px-4 md:pt-3 md:pb-6">
-        <a
+        <p>
+          免费的借助于 OpenAI API + ChatBot UI + OpenAI-SB + Netlify + Vercel
+          的聊天机器人
+        </p>
+        <p>若不能继续使用，请联系我, 当然你也可以贡献一杯咖啡只会让其运转的更好，因为日积月累也是一笔费用</p>
+        <p></p>
+        {/* <a
           href="https://github.com/mckaywrigley/chatbot-ui"
           target="_blank"
           rel="noreferrer"
@@ -391,7 +397,7 @@ export const ChatInput = ({
         .{' '}
         {t(
           "Chatbot UI is an advanced chatbot kit for OpenAI's chat models aiming to mimic ChatGPT's interface and functionality.",
-        )}
+        )} */}
       </div>
     </div>
   );

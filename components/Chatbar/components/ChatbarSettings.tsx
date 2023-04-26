@@ -1,4 +1,10 @@
-import { IconFileExport, IconSettings } from '@tabler/icons-react';
+import {
+  IconBook,
+  IconBrandQq,
+  IconFileExport,
+  IconCoffee,
+  IconSettings,
+} from '@tabler/icons-react';
 import { useContext, useState } from 'react';
 
 import { useTranslation } from 'next-i18next';
@@ -67,6 +73,29 @@ export const ChatbarSettings = () => {
         onClose={() => {
           setIsSettingDialog(false);
         }}
+      />
+      <SidebarButton
+        text="我的博客"
+        icon={<IconBook size={18} />}
+        onClick={() =>
+          (window.location.href = 'https://xxxdgblog.netlify.app/')
+        }
+      />
+      <SidebarButton
+        text="想联系我"
+        icon={<IconBrandQq size={18} />}
+        onClick={() =>
+          (window.location.href =
+            'https://raw.githubusercontent.com/XIAOZHUXUEJAVA/GraphBed/main/img/202211172305474.png')
+        }
+      />
+      <SidebarButton
+        text="请我喝茶"
+        icon={<IconCoffee size={18} />}
+        onClick={() =>
+          (window.location.href =
+            'https://raw.githubusercontent.com/XIAOZHUXUEJAVA/GraphBed/main/img/202304262110020.png')
+        }
       />
     </div>
   );
