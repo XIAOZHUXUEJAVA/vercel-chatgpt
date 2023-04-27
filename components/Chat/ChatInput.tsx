@@ -384,8 +384,17 @@ export const ChatInput = ({
           免费的借助于 OpenAI API + ChatBot UI + OpenAI-SB + Netlify + Vercel
           的聊天机器人
         </p>
-        <p>若不能继续使用，请联系我, 当然你也可以贡献一杯咖啡只会让其运转的更好，因为日积月累也是一笔费用</p>
-        <p></p>
+        <p>
+          当然你也可以在左侧
+          <a
+            href="https://xxxdgblog.netlify.app/projects"
+            target="_blank"
+            rel="noreferrer"
+            className="underline"
+          >贡献一杯咖啡</a>
+          只会让其运转的更好，因为日积月累也是一笔费用
+        </p>
+        <p>若不能继续使用，请联系我</p>
         {/* <a
           href="https://github.com/mckaywrigley/chatbot-ui"
           target="_blank"

@@ -1,8 +1,8 @@
 import {
   IconBook,
   IconBrandQq,
-  IconFileExport,
   IconCoffee,
+  IconFileExport,
   IconSettings,
 } from '@tabler/icons-react';
 import { useContext, useState } from 'react';
@@ -78,23 +78,27 @@ export const ChatbarSettings = () => {
         text="我的博客"
         icon={<IconBook size={18} />}
         onClick={() =>
-          (window.location.href = 'https://xxxdgblog.netlify.app/')
+          // (window.location.href = 'https://xxxdgblog.netlify.app/')
+          window.open('https://xxxdgblog.netlify.app/', '_blank')
         }
       />
       <SidebarButton
         text="想联系我"
         icon={<IconBrandQq size={18} />}
         onClick={() =>
-          (window.location.href =
-            'https://raw.githubusercontent.com/XIAOZHUXUEJAVA/GraphBed/main/img/202211172305474.png')
+          // (window.location.href =
+          //   'https://xxxdgblog.netlify.app/projects')
+
+          window.open('https://xxxdgblog.netlify.app/projects', '_blank')
         }
       />
       <SidebarButton
         text="请我喝茶"
         icon={<IconCoffee size={18} />}
         onClick={() =>
-          (window.location.href =
-            'https://raw.githubusercontent.com/XIAOZHUXUEJAVA/GraphBed/main/img/202304262110020.png')
+          // (window.location.href =
+          //   'https://raw.githubusercontent.com/XIAOZHUXUEJAVA/GraphBed/main/img/202211172305474.png')
+          window.open('https://xxxdgblog.netlify.app/projects', '_blank')
         }
       />
     </div>
