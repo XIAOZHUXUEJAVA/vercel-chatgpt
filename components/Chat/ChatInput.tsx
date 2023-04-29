@@ -381,7 +381,7 @@ export const ChatInput = ({
       </div>
       <div className="px-3 pt-2 pb-3 text-center text-[12px] text-black/50 dark:text-white/50 md:px-4 md:pt-3 md:pb-6">
         <p>
-          免费的借助于 OpenAI API + ChatBot UI + OpenAI-SB + Netlify + Vercel
+          免费的借助于 OpenAI API + ChatBot UI + OpenAI-SB + Netlify / Vercel
           的聊天机器人
         </p>
         <p>

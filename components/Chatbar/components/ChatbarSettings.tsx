@@ -1,6 +1,7 @@
 import {
   IconBook,
   IconBrandQq,
+  IconBug,
   IconCoffee,
   IconFileExport,
   IconSettings,
@@ -75,6 +76,20 @@ export const ChatbarSettings = () => {
         }}
       />
       <SidebarButton
+        text="网站报错"
+        icon={<IconBug size={18} />}
+        onClick={() =>
+          // (window.location.href =
+          //   'https://xxxdgblog.netlify.app/projects')
+
+          window.open(
+            'https://xxxdgblog.netlify.app/blog/chat%E5%87%BA%E7%8E%B0%E6%8A%A5%E9%94%99%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88',
+            '_blank',
+          )
+        }
+      />
+
+      <SidebarButton
         text="我的博客"
         icon={<IconBook size={18} />}
         onClick={() =>
@@ -93,7 +108,7 @@ export const ChatbarSettings = () => {
         }
       />
       <SidebarButton
-        text="请我喝茶"
+        text="请我喝茶(贡献一份力量)"
         icon={<IconCoffee size={18} />}
         onClick={() =>
           // (window.location.href =
